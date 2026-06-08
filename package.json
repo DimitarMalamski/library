@@ -4,7 +4,7 @@
   "description": "Online Book Library Single Page Application",
   "main": "index.html",
   "scripts": {
-    "start": "http-server -a 0.0.0.0 -p $PORT -P http://localhost:$PORT? -c-1",
+    "start": "http-server -a 0.0.0.0 -p $PORT -P http://localhost:$PORT/index.html -c-1",
     "server": "cd server && node server.js",
     "test": "playwright test"
   },
